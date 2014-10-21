@@ -1,0 +1,33 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x08\x00p\x00i\x00n\x00g)
+
+[CMake]
+BuildDirs=/home/abdel/projects/ping/build
+CMakeDir=/usr/share/cmake-2.8/Modules
+Current CMake Binary=file:///usr/bin/cmake
+CurrentBuildDir=file:///home/abdel/projects/ping/build
+CurrentBuildType=Debug
+CurrentInstallDir=
+Extra Arguments=
+ProjectRootRelative=./
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=Nueva configuración Aplicación nativa
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=google.es
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=default
+Executable=
+External Terminal=xterm -hold -e gksudo %exe
+Project Target=ping,ping
+Use External Terminal=true
+Working Directory=
+isExecutable=false
