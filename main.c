@@ -43,6 +43,12 @@ int audio=0;
 void usage()
 {
   printf("Usage ping [-i interval] [-c count] [-p pattern] [-f] [-a] [-h]\n");
+  printf("[-i interval] : interval between sent pings in seconds\n");
+  printf("[-c count] Number of pings to send before exit. If not provided pings are continously sent until the program is finished (CTRL-C)\n");
+  printf("[-p pattern] The payload of each packet as an HEX string\n");
+  printf("[-f] : enable flood pinging (use with caution)");
+  printf("[-a] : play an sound on every response received.\n");
+  printf("[-h] print this help\n");
 }
 
 void statistics(int n)
